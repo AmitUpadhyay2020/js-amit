@@ -13,3 +13,15 @@ console.log(myScoreInNumber)
 
 //null value is 0 if converted to NaN
 //undefined to NaN
+str1="hello"
+str2=" Amit"
+str3=str1+str2
+console.log(str3)
+
+
+//some important patterns
+console.log("1"+2)    //12
+console.log(1+"2")    //12
+console.log("1"+"2")  //12
+console.log("1"+2+2)  //122
+console.log(1+2+"2") //132
