@@ -52,3 +52,41 @@ console.log(Object.keys(tinderUser))
 console.log(Object.values(tinderUser))
 console.log(Object.entries(tinderUser))
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+
+//Destructuring of objects
+
+const course ={
+    coursename:"jsinhindi",
+    price:"999",
+    courseinstructor:"Hitesh"
+}
+
+const {courseinstructor :instructor}=course
+//console.log(courseinstructor)  alias name 
+console.log(instructor)
+
+
+//example of reactJS
+
+/*
+const navbar =({company})=>{
+
+}
+navbar(company="Amit")
+*/
+
+//JSON is a javascript object
+/*
+{
+   "name":"Amit",
+   "courseName":"Js in Hindi",
+   "price":"free"
+}
+[
+    {},
+    {},
+    {}
+]
+*/
+
