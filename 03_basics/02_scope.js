@@ -1,3 +1,4 @@
+
 //Scope
 let a=300
 if(true){
