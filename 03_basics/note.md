@@ -18,8 +18,14 @@ result1=AddNum(val1,val2)
 result2=AddNum(30,40)
 
 1. start from global execution and allocated to this
-2. memory phase
+2. memory phase=
      val1,val2->undefined
      AddNum-> Definition
      result1,result2->undefined 
-3. 
+3. execution phase
+   val1=10
+   val2=20  
+            new variable environment+execution thread
+
+Last in first out(LIFO) works in this if we call function inside a function
+we can check the call stack in a browser window to check this
