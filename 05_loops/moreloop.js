@@ -79,3 +79,25 @@ function printMe(item){
     console.log(item)
 }
 programming.forEach(printMe)
+
+const Coding =[
+    {
+        languagename:"JavaScript",
+        filename:"JS"
+    },
+    {
+        languagename:"C++",
+        filename:"CPP"
+    },
+    {
+        languagename:"C#",
+        filename:".net"
+    }
+]
+
+//usually we get value from databases in this format
+//easy way to access object
+
+Coding.forEach((item)=>{
+    console.log(item.languagename);
+})
